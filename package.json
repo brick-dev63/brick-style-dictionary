@@ -1,0 +1,40 @@
+{
+  "name": "@brick-dev63/brick-style-dictionary",
+  "version": "0.0.1",
+  "description": "This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run: ```bash style-dictionary build ```",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "copyCss": "cp build/css/tokens.css dist/index.css",
+    "copyScss": "cp build/scss/tokens.scss dist/index.scss",
+    "copyJson": "cp build/json/tokens.json dist/index.json",
+    "copy": "npm run copyCss && npm run copyScss && npm run copyJson",
+    "copyBuild": "npm run rollup && npm run copy",
+    "rollup": "npm run clean && npm run build && rollup -c",
+    "build": "node_modules/.bin/style-dictionary build",
+    "clean": "rm -rf build && rm -rf dist",
+    "prepublishOnly": "npm run copyBuild",
+    "watch": "npm run build && chokidar  \"tokens/**/*.json\" -c \"npm run build\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.1.2",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "chokidar-cli": "^3.0.0",
+    "rollup": "^2.63.0",
+    "rollup-plugin-css-porter": "^1.0.2",
+    "rollup-plugin-dts": "^4.1.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-sass": "^1.2.10",
+    "sass": "^1.45.2",
+    "style-dictionary": "3.1.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
