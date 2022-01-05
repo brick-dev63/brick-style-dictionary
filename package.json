@@ -1,6 +1,6 @@
 {
   "name": "@brick-dev63/brick-style-dictionary",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run: ```bash style-dictionary build ```",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",

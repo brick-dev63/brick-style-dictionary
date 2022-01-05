@@ -4,28 +4,32 @@
     "css": {
       "transformGroup": "css",
       "buildPath": "build/css/",
-      "files": [{
-        "destination": "tokens.css",
-        "format": "css/variables"
-        }]
-      },
-      "json": {
-        "transformGroup": "js",
-        "buildPath": "build/json/",
-        "files": [
-          {
-            "format": "json/nested",
-            "destination": "tokens.json"
-          }
-        ]
-      },
+      "files": [
+        {
+          "destination": "tokens.css",
+          "format": "css/variables"
+        }
+      ]
+    },
+    "json": {
+      "transformGroup": "js",
+      "buildPath": "build/json/",
+      "files": [
+        {
+          "format": "json/nested",
+          "destination": "tokens.json"
+        }
+      ]
+    },
     "scss": {
       "transformGroup": "scss",
       "buildPath": "build/scss/",
-      "files": [{
-        "destination": "tokens.scss",
-        "format": "scss/variables"
-      }]
+      "files": [
+        {
+          "destination": "tokens.scss",
+          "format": "scss/variables"
+        }
+      ]
     },
     "ts": {
       "transformGroup": "js",

@@ -1,7 +1,7 @@
 {
   "color": {
     "font": {
-      "base": { "value": "{color.base.grey.dark.value}" },
+      "base": { "value": "{color.base.gray.dark.value}" },
       "secondary": { "value": "{color.base.secondary.value}" },
       "tertiary": { "value": "{color.base.tertiary.value}" }
     }

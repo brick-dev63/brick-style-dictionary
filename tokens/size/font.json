@@ -2,22 +2,22 @@
   "size": {
     "font": {
       "h1": {
-        "value": "48px"
+        "value": "3"
       },
       "h2": {
-        "value": "32px"
+        "value": "2"
       },
       "h3": {
-        "value": "24px"
+        "value": "1.5"
       },
       "h4": {
-        "value": "16px"
+        "value": "1"
       },
       "h5": {
-        "value": "12px"
+        "value": "0.75"
       },
       "body": {
-        "value": "16px"
+        "value": "1"
       },
       "small": {
         "value": "0.75",
