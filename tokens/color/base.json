@@ -1,13 +1,26 @@
 {
   "color": {
     "base": {
-      "gray": {
-        "light" : { "value": "#CCCCCC" },
-        "medium": { "value": "#999999" },
-        "dark"  : { "value": "#111111" }
+      "white": {
+        "value": "#FFFFFF"
       },
-      "red": { "value": "#FF0000" },
-      "green": { "value": "#00FF00" }
+      "gray": {
+        "light": { "value": "#DADADA" },
+        "medium": { "value": "#404443" },
+        "dark": { "value": "#0D0C1D" }
+      },
+      "primary": {
+        "value": "#0F4E71"
+      },
+      "secondary": {
+        "value": "#EE6457"
+      },
+      "tertiary": {
+        "value": "#227881"
+      },
+      "quaternary": {
+        "value": "#DAC7B6"
+      }
     }
   }
 }
