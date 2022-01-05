@@ -1,6 +1,6 @@
 {
   "family": {
-    "base": "'Poppins', sans-serif",
-    "special": "'Montserrat', sans-serif"
+    "base": { "value": "'Poppins', sans-serif" },
+    "special": { "value": "'Montserrat', sans-serif" }
   }
 }
