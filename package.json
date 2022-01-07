@@ -7,6 +7,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/rickbowman63-dev63"
+  },
   "types": "dist/index.d.ts",
   "scripts": {
     "copyCss": "cp build/css/tokens.css dist/index.css",
